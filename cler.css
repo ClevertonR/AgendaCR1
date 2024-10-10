@@ -1,0 +1,52 @@
+/* cler.css */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+    padding: 20px;
+    background-color: #a26680;
+	
+	
+}
+
+h1 {
+    text-align: center;
+}
+
+#schedule-form {
+	width: 50%;
+	margin: 40px auto;
+	padding: 20px;
+	border: 9px solid #ccc;
+	border-radius: 18px;
+	box-shadow: 0 0 70px rgba(0, 0, 0, 0.1);
+}
+
+#schedule-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+
+th {
+	background-color: #f0f0f0;
+}
+
+#timer-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#timer {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+}

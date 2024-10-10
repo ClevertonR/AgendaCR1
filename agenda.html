@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Agendamentos</title>
+    <link rel="stylesheet" href="cler.css">
+	<meta charset="UTF-8">
+	
+</head>
+<body>
+    <h1>Agenda de Horarios</h1>
+    <form id="schedule-form">
+        <label for="schedule-name">NOME:</label>
+        <input type="text" id="schedule-name" name="schedule-name"><br><br>
+        <label for="start-time">HORARIO:</label>
+        <input type="time" id="start-time" name="start-time"><br><br>
+        <button type="button" id="add-time-slot">RESERVAR</button>
+    </form>
+    <table id="schedule-table">
+        <thead>
+            <tr>
+                <th>Horarios Agendados</th>
+                <th>Reservado Para:</th>
+                <th>Desmarcar:</th>
+            </tr>
+        </thead>
+        <tbody id="schedule-body">
+           
+        </tbody>
+    </table>
+    <div id="timer-container"><p>Tempo de Atendimento</p>
+    <div id="timer">TEMPO</div>
+    </div>
+    <script src="cler.js"></script>
+	
+	
+	
+</body>
+</html>
